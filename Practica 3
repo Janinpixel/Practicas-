@@ -1,0 +1,45 @@
+1)Dado un precio calcular su descuento considerando que si el precio es mayor a $100, el descuento será de %10 por ciento, de otro modo solo descontar %2. 
+
+Entrada: Precio original
+
+Salida: Precio con descuento aplicado
+
+Solución:
+1. Solicitar el precio original
+2. Si el precio es mayor a $100 entonces el descuento será de %10, por lo tanto:
+ 2.1. Se multiplica el precio original por 10 y se divide entre 100.
+ 2.2. Al precio original se le resta el resultado del procedimiento anterior.
+ 2.3 Se imprime el valor resultante. 
+3. Si el precio es menor a $100 entonces el descuento será de %2, por lo tanto:
+ 3.1. Se multiplica el valor original por 2 y se divide entre 100. 
+ 3.2. Al precio original se le resta el resultado del procedimiento anterior. 
+ 3.3 Se imprime el valor resultante. 
+4. Fin.
+
+2)Algoritmo que lea dos numero, calcule su suma, su resta, su multiplicación y su division, de ambos. 
+
+Entrada: Dos números.
+
+Salida: La suma, resta, multiplicación  y division de esos dos numero.
+
+1. Se solicitan los dos números (Num1, Num 2) 
+2. Num 1 + Num2=Num3 
+ 2.1. Imprime “Su suma es: “+Num3
+3. Num 1 - Num2=Num4
+ 3.1 Imprime “Su resta es: “+Num4 
+4. Num1 * Num2=Num5
+ 4.1. Imprime “Su producto es: “ +Num5
+5. Num 1 / Num 2=Num6
+ 5.1. Imprime “Su cociente es “+ Num6 
+6. Fin
+
+3) Leer 3 números que van a denotar una fecha (dia, mes y año) y verificar si es una fecha valida.
+
+1. Solicitar num 1, num 2, num3.
+2.num1=dia, num2=mes, num3=año
+3. Condiciones: 
+- Num1 No puede ser mayor a 31, si el num2=2 entonces num1 no puede ser mayor a 28. Num1 No puede ser negativo.
+-Num2 No luede ser mayor a 12. num2 no puede ser negativo.
+-Num3 no puede ser mayor un numero negativo.
+4. Imprimir resultados: num1 num2 num3
+5. Fin. 
